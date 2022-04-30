@@ -1,19 +1,27 @@
-﻿  glad.c
-  textfile.cpp
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\textfile.cpp(23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  main.cpp
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(233): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(233): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(240): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(240): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(519): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(507): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
-  d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(507): note: consider using '%zd' in the format string
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(507): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
-  d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(507): note: consider using '%zd' in the format string
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(544): warning C4305: '=': truncation from 'double' to 'GLfloat'
-d:\courses\computer graphics\2020 spring - computer graphics\assignment\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(564): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-  Generating Code...
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  OpenGLFramework-VS2017.vcxproj -> D:\Courses\Computer Graphics\2020 Spring - Computer Graphics\Assignment\AS01_Framework\HW1_VS2017_Framework\x64\Debug\OpenGLFramework-VS2017.exe
-  OpenGLFramework-VS2017.vcxproj -> D:\Courses\Computer Graphics\2020 Spring - Computer Graphics\Assignment\AS01_Framework\HW1_VS2017_Framework\x64\Debug\OpenGLFramework-VS2017.pdb (Partial PDB)
+﻿  main.cpp
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(239): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(238): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(237): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(253): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(252): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(251): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(282): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(289): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(421): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(431): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(454): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(485): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(488): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(489): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(500): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(501): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(519): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(520): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(735): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'unsigned __int64'
+  c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(735): note: 請考慮在格式字串中使用 '%zd'
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(735): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'unsigned __int64'
+  c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(735): note: 請考慮在格式字串中使用 '%zd'
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(747): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(772): warning C4305: '=': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+c:\users\che\desktop\清大\computer graphics\nthu-computer-graphics-course\homework1\as01_framework\hw1_vs2017_framework\openglframework-vs2017\main.cpp(792): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  OpenGLFramework-VS2017.vcxproj -> C:\Users\Che\Desktop\清大\Computer Graphics\NTHU-Computer-Graphics-Course\Homework1\AS01_Framework\HW1_VS2017_Framework\x64\Debug\OpenGLFramework-VS2017.exe
