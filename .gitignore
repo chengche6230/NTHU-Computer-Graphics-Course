@@ -31,6 +31,7 @@
 *.out
 *.app
 
+*.pdf
 /Homework1/AS01_Result
 /Homework1/11006*
 /Homework1/AS01_Framework/HW1_VS2017_Framework
