@@ -12,3 +12,8 @@
 * Implement 3 types of light sources: Directional light / Position light (Point light) / Spot light
 * Interact and modify the light source in runtime.
 * Finish the code in main.cpp, vertex shader and fragment shader.
+
+## Homework 3 - Texture Mapping
+* Binding and passing the texture to shader.
+* Modify the texture filtering & wrapping mode.
+* Finish the code in main.cpp, vertex shader and fragment shader.
